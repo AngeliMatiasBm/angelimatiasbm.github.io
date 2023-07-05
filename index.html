@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder Bot</title>
+</head>
+<body>
+<h1>
+    Decoder Bot
+</h1>
+<button onclick="bmShow()">Bm Show</button>
+<button onclick="bmHide()">Bm Hide</button>
+<button onclick="bmMinimize()">Bm Minimize</button>
+<button onclick="bmMaximize()">Bm Maximize</button>
+<div name="botmakerMain">
+
+</div>
+<!-- START Botmaker Webchat-->
+<script>
+    (function () {
+        let js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.async = 1;
+        js.src = 'https://go.botmaker.com/rest/webchat/p/0F1KX4FX46/init.js';
+        document.body.appendChild(js);
+    })();
+</script>
+<!-- END Botmaker WebChat-->
+</body>
+</html>
